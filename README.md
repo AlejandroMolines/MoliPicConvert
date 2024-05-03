@@ -18,15 +18,12 @@ Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
 ```bash
 python mpcimg.py
 ```
-## Asegúrate de tener instaladas las bibliotecas requeridas antes de ejecutar el script.
-
-Antes de ejecutar el script, asegúrate de tener instaladas todas las bibliotecas necesarias. Puedes instalarlas utilizando pip y el archivo `requirements.txt`.
 
 ## Funcionalidades
 
 - **Seleccionar una imagen para convertirla:** Permite al usuario seleccionar una imagen desde su sistema de archivos local para ser convertida.
 
-- **Elegir el formato de salida de la imagen:** Proporciona una variedad de formatos de imagen de salida, incluyendo JPEG, PNG, GIF, WebP y AVIF.
+- **Elegir el formato de salida de la imagen:** Proporciona una variedad de formatos de imagen de salida, incluyendo JPEG, PNG, GIF y WebP.
 
 - **Especificar el nombre del archivo de salida:** Permite al usuario especificar el nombre del archivo de salida para la imagen convertida.
 
