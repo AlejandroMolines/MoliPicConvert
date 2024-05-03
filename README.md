@@ -20,6 +20,7 @@ pip install -r requirements.txt
 ```bash
 tkinter
 Pillow==9.0.0
+pyinstaller==6.6.0
 ```
 Uso
 Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
@@ -30,12 +31,8 @@ python mpcimg.py
 
 ### Crear Ejecutable:
 #### Windows:
-Instalar pyinstaller:
-```bash
-pip install pyinstaller
-```
 Crear Ejecutable:
-En la misma terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+Navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
 Ejecuta el siguiente comando para crear el ejecutable:
 ```bash
 pyinstaller --onefile mpcimg.py
@@ -43,12 +40,8 @@ pyinstaller --onefile mpcimg.py
 El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
 
 #### Linux:
-Instalar pyinstaller:
-```bash
-pip install pyinstaller
-```
 Crear Ejecutable:
-En la terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+En una terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
 Ejecuta el siguiente comando para crear el ejecutable:
 ```bash
 pyinstaller --onefile mpcimg.py
