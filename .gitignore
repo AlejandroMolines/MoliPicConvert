@@ -1,0 +1,12 @@
+# Ignorar archivos de configuración local
+.vscode/
+.idea/
+
+# Ignorar archivos generados automáticamente
+*.log
+*.pyc
+
+# Ignorar archivos sensibles
+config.ini
+secrets/
+images/
