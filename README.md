@@ -26,7 +26,7 @@ Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
 ```bash
 python mpcimg.py
 ```
-## Opcional: Crear Ejecutable
+## Opcional: Crear Ejecutable (Working)
 
 ### Crear Ejecutable:
 #### Windows:
