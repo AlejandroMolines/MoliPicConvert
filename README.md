@@ -22,7 +22,6 @@ tkinter
 Pillow==9.0.0
 pyinstaller==6.6.0
 ```
-Uso
 Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
 ```bash
 python mpcimg.py
