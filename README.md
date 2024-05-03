@@ -3,7 +3,6 @@
 **MoliPicConvert** es una aplicación simple de conversión de imágenes construida en Python utilizando Tkinter para la interfaz gráfica y Pillow para manipular las imágenes. Con **MoliPicConvert**, puedes convertir fácilmente imágenes a diferentes formatos y redimensionarlas según tus necesidades. Compatible con Windows y Linux.
 
 ## Instalación
-- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png)
 
 ### Paso 1: Clonar el Repositorio
 
