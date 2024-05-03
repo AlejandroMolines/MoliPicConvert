@@ -33,7 +33,7 @@ python mpcimg.py
 Navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
 Ejecuta el siguiente comando para crear el ejecutable:
 ```bash
-pyinstaller --onefile mpcimg.py
+pyinstaller --onefile --windowed mpcimg.py
 ```
 El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
 
@@ -41,7 +41,7 @@ El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio
 En una terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
 Ejecuta el siguiente comando para crear el ejecutable:
 ```bash
-pyinstaller --onefile mpcimg.py
+pyinstaller --onefile --windowed mpcimg.py
 ```
 El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
 
