@@ -9,7 +9,7 @@
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git clone https://github.com/AlejandroMolines/MoliPicConvert.git
 ```
 ### Step 2: Install Requirements
 To run **MoliPicConvert**, you will need to have Python installed on your system. Additionally, you may need to install dependencies using pip. You can do this by running the following command in your terminal:
@@ -23,10 +23,17 @@ pyinstaller==6.6.0
 PyQt5==5.15.10
 PyQt5_sip==12.13.0
 ```
+En MacOS, with hombrew:
+
+```bash
+brew install tkinter pillow pyinstaller
+```
+
 To run the application, simply execute the mpcimg.py script:
 ```bash
 python mpcimg.py
 ```
+
 ## Optional: Create Executable (Working)
 
 ### Windows:
@@ -86,6 +93,4 @@ The executable will be generated in a folder named "dist" within your project di
 
 ## Contributions
 Contributions are welcome. If you find an <span style="color:red">error</span> or have any suggestions for improving the application, feel free to open an issue or send a pull request.
-
-
 
