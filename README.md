@@ -4,6 +4,14 @@
 
 ## Instalación
 
+### Paso 1: Clonar el Repositorio
+
+Clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+```
+### Paso 2: Instalar Requisitos
 Para ejecutar **MoliPicConvert**, necesitarás tener instalado Python en tu sistema. Además, es posible que necesites instalar las dependencias utilizando **pip**. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 
 ```bash
@@ -18,6 +26,34 @@ Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
 ```bash
 python mpcimg.py
 ```
+## Opcional: Crear Ejecutable
+
+### Crear Ejecutable:
+#### Windows:
+Instalar pyinstaller:
+```bash
+pip install pyinstaller
+```
+Crear Ejecutable:
+En la misma terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+Ejecuta el siguiente comando para crear el ejecutable:
+```bash
+pyinstaller --onefile mpcimg.py
+```
+El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
+
+#### Linux:
+Instalar pyinstaller:
+```bash
+pip install pyinstaller
+```
+Crear Ejecutable:
+En la terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+Ejecuta el siguiente comando para crear el ejecutable:
+```bash
+pyinstaller --onefile mpcimg.py
+```
+El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
 
 ## Funcionalidades
 
