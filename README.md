@@ -29,9 +29,9 @@ In MacOS, with hombrew:
 brew install tkinter pillow pyinstaller
 ```
 
-To run the application, simply execute the mpcimg.py script:
+To run the application, simply execute the MoliPicConverter.py script:
 ```bash
-python mpcimg.py
+python MoliPicConverter.py
 ```
 
 ## Optional: Create Executable (Working)
@@ -40,7 +40,7 @@ python mpcimg.py
 Navigate to the folder where your application's main file is located.
 Run the following command to create the executable:
 ```bash
-pyinstaller --onefile --windowed mpcimg.py
+pyinstaller --onefile --windowed MoliPicConverter.py
 ```
 The executable will be generated in a folder named "dist" within your project directory.
 
@@ -48,7 +48,7 @@ The executable will be generated in a folder named "dist" within your project di
 Navigate to the folder where your application's main file is located.
 Run the following command to create the executable:
 ```bash
-pyinstaller --onefile --windowed mpcimg.py
+pyinstaller --onefile --windowed MoliPicConverter.py
 ```
 The executable will be generated in a folder named "dist" within your project directory.
 
