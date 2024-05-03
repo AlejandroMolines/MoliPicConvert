@@ -1,9 +1,17 @@
 # MoliPicConvert
 
-**MoliPicConvert** es una aplicación simple de conversión de imágenes construida en Python utilizando Tkinter para la interfaz gráfica y Pillow para manipular las imágenes. Con **MoliPicConvert**, puedes convertir fácilmente imágenes a diferentes formatos y redimensionarlas según tus necesidades.
+**MoliPicConvert** es una aplicación simple de conversión de imágenes construida en Python utilizando Tkinter para la interfaz gráfica y Pillow para manipular las imágenes. Con **MoliPicConvert**, puedes convertir fácilmente imágenes a diferentes formatos y redimensionarlas según tus necesidades. Compatible con Windows y Linux.
 
 ## Instalación
 
+### Paso 1: Clonar el Repositorio
+
+Clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+```
+### Paso 2: Instalar Requisitos
 Para ejecutar **MoliPicConvert**, necesitarás tener instalado Python en tu sistema. Además, es posible que necesites instalar las dependencias utilizando **pip**. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 
 ```bash
@@ -12,21 +20,36 @@ pip install -r requirements.txt
 ```bash
 tkinter
 Pillow==9.0.0
+pyinstaller==6.6.0
 ```
-Uso
 Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
 ```bash
 python mpcimg.py
 ```
-## Asegúrate de tener instaladas las bibliotecas requeridas antes de ejecutar el script.
+## Opcional: Crear Ejecutable
 
-Antes de ejecutar el script, asegúrate de tener instaladas todas las bibliotecas necesarias. Puedes instalarlas utilizando pip y el archivo `requirements.txt`.
+### Crear Ejecutable:
+#### Windows:
+Navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+Ejecuta el siguiente comando para crear el ejecutable:
+```bash
+pyinstaller --onefile --windowed mpcimg.py
+```
+El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
+
+#### Linux:
+En una terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
+Ejecuta el siguiente comando para crear el ejecutable:
+```bash
+pyinstaller --onefile --windowed mpcimg.py
+```
+El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
 
 ## Funcionalidades
 
 - **Seleccionar una imagen para convertirla:** Permite al usuario seleccionar una imagen desde su sistema de archivos local para ser convertida.
 
-- **Elegir el formato de salida de la imagen:** Proporciona una variedad de formatos de imagen de salida, incluyendo JPEG, PNG, GIF, WebP y AVIF.
+- **Elegir el formato de salida de la imagen:** Proporciona una variedad de formatos de imagen de salida, incluyendo JPEG, PNG, GIF y WebP.
 
 - **Especificar el nombre del archivo de salida:** Permite al usuario especificar el nombre del archivo de salida para la imagen convertida.
 
