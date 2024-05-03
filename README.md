@@ -40,21 +40,21 @@ Antes de ejecutar el script, asegúrate de tener instaladas todas las biblioteca
 
 ## Capturas de pantalla
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/Captura%20desde%202024-05-03%2013-03-49.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConverter/blob/main/images/Captura%20desde%202024-05-03%2013-03-49.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Foto 1. Interfaz
 </p>
 
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/Captura%20desde%202024-05-03%2013-31-57.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-31-57.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Foto 2. Datos Introducidos
 </p>
 
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/Captura%20desde%202024-05-03%2013-32-37.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-32-37.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Foto 3. Resultado
