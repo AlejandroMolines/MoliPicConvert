@@ -22,7 +22,7 @@ tkinter
 Pillow==9.0.0
 pyinstaller==6.6.0
 ```
-En MacOS, con hombrew, simplemnete ejecuta:
+En MacOS, con hombrew:
 
 ```bash
 brew install tkinter pillow pyinstaller
