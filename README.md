@@ -1,92 +1,91 @@
 # MoliPicConvert
 
-**MoliPicConvert** es una aplicación simple de conversión de imágenes construida en Python utilizando Tkinter para la interfaz gráfica y Pillow para manipular las imágenes. Con **MoliPicConvert**, puedes convertir fácilmente imágenes a diferentes formatos y redimensionarlas según tus necesidades. Compatible con Windows y Linux.
+**MoliPicConvert** is a simple image conversion application built using Python with Tkinter for the graphical interface and Pillow for image manipulation. With **MoliPicConvert**, you can easily convert images to different formats and resize them according to your needs. Compatible with Windows and Linux.
 
-## Instalación
+## Installation
 
-### Paso 1: Clonar el Repositorio
+### Step 1: Clone the Repository
 
-Clona este repositorio en tu máquina local utilizando el siguiente comando:
+Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
 ```
-### Paso 2: Instalar Requisitos
-Para ejecutar **MoliPicConvert**, necesitarás tener instalado Python en tu sistema. Además, es posible que necesites instalar las dependencias utilizando **pip**. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
+### Step 2: Install Requirements
+To run **MoliPicConvert**, you will need to have Python installed on your system. Additionally, you may need to install dependencies using pip. You can do this by running the following command in your terminal:
 
 ```bash
 pip install -r requirements.txt
 ```
 ```bash
-tkinter
 Pillow==9.0.0
 pyinstaller==6.6.0
+PyQt5==5.15.10
+PyQt5_sip==12.13.0
 ```
-Para ejecutar la aplicación, simplemente ejecuta el script mpcimg.py:
+To run the application, simply execute the mpcimg.py script:
 ```bash
 python mpcimg.py
 ```
-## Opcional: Crear Ejecutable (Working)
+## Optional: Create Executable (Working)
 
-### Crear Ejecutable:
-#### Windows:
-Navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
-Ejecuta el siguiente comando para crear el ejecutable:
+### Windows:
+Navigate to the folder where your application's main file is located.
+Run the following command to create the executable:
 ```bash
 pyinstaller --onefile --windowed mpcimg.py
 ```
-El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
+The executable will be generated in a folder named "dist" within your project directory.
 
-#### Linux:
-En una terminal, navega hasta la carpeta donde se encuentra el archivo principal de tu aplicación.
-Ejecuta el siguiente comando para crear el ejecutable:
+### Linux:
+Navigate to the folder where your application's main file is located.
+Run the following command to create the executable:
 ```bash
 pyinstaller --onefile --windowed mpcimg.py
 ```
-El ejecutable se generará en una carpeta llamada "dist" dentro de tu directorio de proyecto.
+The executable will be generated in a folder named "dist" within your project directory.
 
-## Funcionalidades
+## Features
 
-- **Seleccionar una imagen para convertirla:** Permite al usuario seleccionar una imagen desde su sistema de archivos local para ser convertida.
+- **Select an image to convert:** Allows the user to select an image from their local file system to be converted.
 
-- **Elegir el formato de salida de la imagen:** Proporciona una variedad de formatos de imagen de salida, incluyendo JPEG, PNG, GIF y WebP.
+- **Choose the output image format:** Provides a variety of output image formats, including JPEG, PNG, GIF, and WebP.
 
-- **Especificar el nombre del archivo de salida:** Permite al usuario especificar el nombre del archivo de salida para la imagen convertida.
+- **Specify the output file name:** Allows the user to specify the name of the output file for the converted image.
 
-- **Seleccionar la carpeta de destino:** Permite al usuario seleccionar la carpeta donde se guardarán las imágenes convertidas.
+- **Select the destination folder:** Allows the user to choose the folder where the converted images will be saved.
 
-- **Redimensionar la imagen antes de guardarla (opcional):** Ofrece la opción de redimensionar la imagen antes de guardarla, permitiendo al usuario ajustar el tamaño según sus necesidades.
+- **Resize the image before saving (optional):** Offers the option to resize the image before saving it, allowing the user to adjust the size according to their needs.
 
-- **Restablecer todos los campos y la imagen mostrada con un solo clic:** Proporciona un botón de restablecimiento que limpia todos los campos y la imagen mostrada, permitiendo al usuario comenzar de nuevo fácilmente.
+- **Reset all fields and the displayed image with a single click:** Provides a reset button that clears all fields and the displayed image, allowing the user to start over easily.
 
 
-
-## Capturas de pantalla
+## Screenshots
 <p align="center">
   <img src="https://github.com/AlejandroMolines/MoliPicConverter/blob/main/images/Captura%20desde%202024-05-03%2013-03-49.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
-  Foto 1. Interfaz
+  Photo 1. Interface
 </p>
 
 <p align="center">
   <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-31-57.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
-  Foto 2. Datos Introducidos
+  Photo 2. Data Entered
 </p>
 
 <p align="center">
   <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-32-37.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
-  Foto 3. Resultado
+  Photo 3. Result
 </p>
 
 
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si encuentras un <span style="color:red">error</span> o tienes alguna sugerencia para mejorar la aplicación, no dudes en abrir un problema o enviar una solicitud de extracción.
+## Contributions
+Contributions are welcome. If you find an <span style="color:red">error</span> or have any suggestions for improving the application, feel free to open an issue or send a pull request.
 
 
 
