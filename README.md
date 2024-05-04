@@ -18,7 +18,7 @@ To run **MoliPicConvert**, you will need to have Python installed on your system
 pip install -r requirements.txt
 ```
 ```bash
-Pillow==9.0.0
+Pillow>=10.3.0
 pyinstaller==6.6.0
 PyQt5==5.15.10
 PyQt5_sip==12.13.0
