@@ -35,7 +35,7 @@ python MoliPicConverter.py
 ```
 
 > [!CAUTION]
-> Negative potential consequences of an action.
+> The following is under maintenance.
 
 ## Optional: Create Executable
 
