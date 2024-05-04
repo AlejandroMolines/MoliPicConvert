@@ -34,11 +34,10 @@ To run the application, simply execute the MoliPicConverter.py script:
 python MoliPicConverter.py
 ```
 
-> [!CAUTION]
-> The following is under maintenance.
 
 ## Optional: Create Executable
-
+> [!CAUTION]
+> The following is under maintenance.
 ### Windows:
 Navigate to the folder where your application's main file is located.
 Run the following command to create the executable:
