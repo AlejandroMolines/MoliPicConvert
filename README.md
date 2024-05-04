@@ -33,8 +33,9 @@ To run the application, simply execute the MoliPicConverter.py script:
 ```bash
 python MoliPicConverter.py
 ```
-
-## Optional: Create Executable (Working)
+>.[!NOTE]
+>The following is under maintenance.
+## Optional: Create Executable
 
 ### Windows:
 Navigate to the folder where your application's main file is located.
