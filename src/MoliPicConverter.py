@@ -31,6 +31,7 @@ class ImageConverterApp(QWidget):
         # Selector de modo de operación
         self.mode_selector = QComboBox()
         self.mode_selector.addItems(["Convertir desde archivo", "Convertir desde URL"])
+        self.mode_selector.setStyleSheet("background-color: #a0a0ff; color: #000; border-radius: 5px; padding: 5px;")
         self.mode_selector.currentIndexChanged.connect(self.switch_mode)
         layout.addWidget(self.mode_selector)
 
