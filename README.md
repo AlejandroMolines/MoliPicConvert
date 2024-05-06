@@ -31,6 +31,9 @@ brew install tkinter pillow pyinstaller
 
 To run the application, simply execute the MoliPicConverter.py script:
 ```bash
+python src/MoliPicConverter.py
+or
+cd src
 python MoliPicConverter.py
 ```
 
