@@ -33,8 +33,8 @@ To run the application, simply execute the MoliPicConverter.py script:
 ```bash
 python src/MoliPicConverter.py
 ```
+**OR**
 ```bash
-or
 cd src
 python MoliPicConverter.py
 ```
