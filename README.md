@@ -76,21 +76,21 @@ The executable will be generated in a folder named "dist" within your project di
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConverter/blob/main/images/Captura%20desde%202024-05-03%2013-03-49.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-06%2016-06-31.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Photo 1. Interface
 </p>
 
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-31-57.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-06%2016-07-00.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Photo 2. Data Entered
 </p>
 
 <p align="center">
-  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-03%2013-32-37.png?raw=true" alt="Descripción de la imagen" width="300">
+  <img src="https://github.com/AlejandroMolines/MoliPicConvert/blob/main/images/Captura%20desde%202024-05-06%2016-07-22.png?raw=true" alt="Descripción de la imagen" width="300">
 </p>
 <p align="center">
   Photo 3. Result
